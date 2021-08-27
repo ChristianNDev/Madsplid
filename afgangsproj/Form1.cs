@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace sutterrøv
+namespace Madspild
 {
     public partial class Form1 : Form
     {
-        string cs = "Server=tcp:afgangsserver.database.windows.net,1433;Initial Catalog=afgangsprojekt;Persist Security Info=False;User ID=Chris;Password=Kaffe123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        string cs = "You're database connection";
         public Form1()
         {
             InitializeComponent();
