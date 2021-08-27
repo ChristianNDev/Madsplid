@@ -23,8 +23,8 @@ namespace Madspild
         }
 
 
-        SqlConnection con = new SqlConnection(@"Server=tcp:afgangsserver.database.windows.net,1433;Initial Catalog=afgangsprojekt;Persist Security Info=False;User ID=Chris;Password=Kaffe123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-        string cs = @"Server=tcp:afgangsserver.database.windows.net,1433;Initial Catalog=afgangsprojekt;Persist Security Info=False;User ID=Chris;Password=Kaffe123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        SqlConnection con = new SqlConnection(@"You're database connection");
+        string cs = @"You're database connection";
         SqlCommand cmd;
         SqlDataAdapter adapt;
         int ID = 0;
